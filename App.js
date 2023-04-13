@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
-import data from "./restaurantData.json"
+import data from './restaurantData.json';
 
 const Logo = () => {
   return (
@@ -37,38 +37,46 @@ const Navbar = () => {
 };
 
 const Body = () => {
-    return (
-        <main>
-        
-            <Card />
-        </main>
-    );
-}
+  return (
+    <main>
+      <Card />
+    </main>
+  );
+};
 
 const Card = () => {
-    return (
-      <div className='card'>
-        <img
-          src={
-            'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/' +
-            data[0].data.cloudinaryImageId
-          }
-          alt={data[0].name}
-        />
-        <h1>{data[0].data.name}</h1>
-        <p>{data[0].data.cuisines.join(", ")}</p>
-        <p>{data[0].data.costForTwo}</p>
+  return (
+    <div className='card'>
+      <img
+        src={
+          'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/' +
+          data[0].data.cloudinaryImageId
+        }
+        alt={data[0].name}
+      />
+      <h1>{data[0].data.name}</h1>
+      <p>
+        Cuisines: <br />
+        {data[0].data.cuisines.join(', ')}
+      </p>
+      <div className='price'>
+        <p>
+          {data[0].data.avgRating}{' '}
+          <i className='fa-solid fa-star' style={{ color: '#ffde0a' }}></i>
+        </p>
+        <p>Rs. {data[0].data.costForTwo / 100}/-</p>
       </div>
-    );
-}
+    </div>
+  );
+};
 
 const Footer = () => {
-    return (
-        <div className='footer'>
-        <h1>Footer</h1>
-        </div>
-    );
-}
+  return (
+    <div className='footer'>
+      <h1>Footer</h1>
+    </div>
+  );
+};
 
 const App = () => {
   return (
