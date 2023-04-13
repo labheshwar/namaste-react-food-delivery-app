@@ -1,0 +1,1979 @@
+[
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "74549",
+      "name": "Sahara Restaurant",
+      "uuid": "94c51cc0-8d7a-4099-a0fe-387cc4a319c4",
+      "city": "5",
+      "area": "Chembur",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "geedkuyt9lobwntf2k3o",
+      "cuisines": [
+        "Indian",
+        "Chinese",
+        "Tandoor",
+        "Mughlai",
+        "Biryani",
+        "Desserts"
+      ],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 29,
+      "minDeliveryTime": 29,
+      "maxDeliveryTime": 29,
+      "slaString": "29 MINS",
+      "lastMileTravel": 3.5,
+      "slugs": {
+        "restaurant": "sahara-restaurant-chembur-chembur",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "12, Opposite Swastik Chambers, chembur CST Road, Chembur, Mumbainear indigo grill",
+      "locality": "CST ROAD",
+      "parentId": 12130,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "60% off",
+        "shortDescriptionList": [
+          {
+            "meta": "60% off | Use GUILTFREE",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹150 | Use code GUILTFREE",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "60% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use GUILTFREE",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹150 | Use code GUILTFREE",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 4500,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 4500,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4500",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6347125~p=1~eid=00000187-761a-7338-0469-e1a100b10176",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "74549",
+        "deliveryTime": 29,
+        "minDeliveryTime": 29,
+        "maxDeliveryTime": 29,
+        "lastMileTravel": 3.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.0",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "355806",
+      "name": "Baba Falooda (Kurla)",
+      "uuid": "384970ad-6ed8-455a-acf6-5493551f5893",
+      "city": "5",
+      "area": "Kurla",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "ys88tnnklqgfhzsftmqq",
+      "cuisines": ["Ice Cream", "Beverages", "Desserts"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 34,
+      "minDeliveryTime": 34,
+      "maxDeliveryTime": 34,
+      "slaString": "34 MINS",
+      "lastMileTravel": 1,
+      "slugs": {
+        "restaurant": "baba-falooda-by-hotel-sky-way-powai-powai",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "TAYYAB MANZIL  shop no 1,2,3 L.B.S Marg KURLA WEST MUMBAI 400070",
+      "locality": "Powai",
+      "parentId": 38827,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "355806",
+        "deliveryTime": 34,
+        "minDeliveryTime": 34,
+        "maxDeliveryTime": 34,
+        "lastMileTravel": 1,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.4",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "78036",
+      "name": "Burger King",
+      "uuid": "c04163ad-ab93-4fce-81da-e87d4f2687b0",
+      "city": "5",
+      "area": "Santacruz East",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "28fb13049b4e55297bb3f703cde63c35",
+      "cuisines": ["Burgers", "American"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 33,
+      "minDeliveryTime": 33,
+      "maxDeliveryTime": 33,
+      "slaString": "33 MINS",
+      "lastMileTravel": 1.2000000476837158,
+      "slugs": {
+        "restaurant": "burger-king-cst-road-scruz-bandra-east",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "unit no G2, Ground floor , Central Plaza , 166,CST Road, Kalina, Mumbai 400098",
+      "locality": "Central Plaza, Kalina",
+      "parentId": 166,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "60% off",
+        "shortDescriptionList": [
+          {
+            "meta": "60% off | Use STEALDEAL",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹120 | Use code STEALDEAL",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "60% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use STEALDEAL",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹120 | Use code STEALDEAL",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.2 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "78036",
+        "deliveryTime": 33,
+        "minDeliveryTime": 33,
+        "maxDeliveryTime": 33,
+        "lastMileTravel": 1.2000000476837158,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.2",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "358147",
+      "name": "Meraki",
+      "uuid": "534603b2-56ae-41c1-922c-725b4d33edb9",
+      "city": "5",
+      "area": "Kurla",
+      "totalRatingsString": "5000+ ratings",
+      "cloudinaryImageId": "wmmzbfzsvrxc38x9tvho",
+      "cuisines": ["Chinese", "Burmese", "Thai", "Beverages", "Thalis"],
+      "tags": [],
+      "costForTwo": 50000,
+      "costForTwoString": "₹500 FOR TWO",
+      "deliveryTime": 30,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 30,
+      "slaString": "30 MINS",
+      "lastMileTravel": 0.699999988079071,
+      "slugs": {
+        "restaurant": "meraki-scruz-bandra-east-scruz-bandra-east-2",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Shop no. 10/11, kasam Chunawlaa Compound, Shastri Nagar, Kalina, Near Bimsillah Hotel, Santacruz East       400029",
+      "locality": "Shastri Nagar",
+      "parentId": 2356,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6463861~p=4~eid=00000187-761a-7338-0469-e1a200b10420",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "358147",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 0.699999988079071,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.2",
+      "totalRatings": 5000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "153348",
+      "name": "Nawab Seekh Corner",
+      "uuid": "f1385485-35be-485a-8b97-b7a76f1e46f6",
+      "city": "5",
+      "area": "Mumbai",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "ssbxpgkn1fmjljx8p2k4",
+      "cuisines": ["North Indian"],
+      "tags": [],
+      "costForTwo": 55000,
+      "costForTwoString": "₹550 FOR TWO",
+      "deliveryTime": 42,
+      "minDeliveryTime": 42,
+      "maxDeliveryTime": 42,
+      "slaString": "42 MINS",
+      "lastMileTravel": 0.6000000238418579,
+      "slugs": {
+        "restaurant": "nawab-seekh-corner-kurla-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Nawab Seekh Corner, Near Delhi Zaika and Kalpana Cinema, LBS Marg, Kurla West, Kurla, Mumbai",
+      "locality": "Kurla",
+      "parentId": 144982,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "153348",
+        "deliveryTime": 42,
+        "minDeliveryTime": 42,
+        "maxDeliveryTime": 42,
+        "lastMileTravel": 0.6000000238418579,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.2",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "12434",
+      "name": "J.J. Jalebi",
+      "uuid": "5e1d9e3c-e122-48c2-b441-416d140bf962",
+      "city": "5",
+      "area": "Mumbai",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "mb5wiw7mk3yifcgf1g5j",
+      "cuisines": ["Desserts", "Sweets"],
+      "tags": [],
+      "costForTwo": 10000,
+      "costForTwoString": "₹100 FOR TWO",
+      "deliveryTime": 27,
+      "minDeliveryTime": 27,
+      "maxDeliveryTime": 27,
+      "slaString": "27 MINS",
+      "lastMileTravel": 0.6000000238418579,
+      "slugs": {
+        "restaurant": "jj-jalebi-lbs-marg-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "JJ Jalebi, LBS Marg, Opposite Kalpana Theatre, Kurla West, Mumbai- 400070",
+      "locality": "LBS Marg",
+      "parentId": 247826,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "10% off",
+        "shortDescriptionList": [
+          {
+            "meta": "10% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "10% off up to ₹40 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "10% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "10% off up to ₹40 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "12434",
+        "deliveryTime": 27,
+        "minDeliveryTime": 27,
+        "maxDeliveryTime": 27,
+        "lastMileTravel": 0.6000000238418579,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.9",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "39187",
+      "name": "King Chilli Chindian Fusion",
+      "uuid": "b39acbbd-8cf9-4da8-8da5-771ece75941c",
+      "city": "5",
+      "area": "Santacruz East",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "tdoxvihtcina2klxp08i",
+      "cuisines": ["Chinese", "Pan-Asian", "Asian", "Beverages", "Desserts"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 34,
+      "minDeliveryTime": 34,
+      "maxDeliveryTime": 34,
+      "slaString": "34 MINS",
+      "lastMileTravel": 1.899999976158142,
+      "slugs": {
+        "restaurant": "king-chilli-chindian-fusion-santacruz-east-scruz-bandra-east",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Shop no. 10, Lovely homes, opp bank of baroda ,Kalina Kurla road, Santacruz East , Mumbai 400029",
+      "locality": "Kalina Kurla Road",
+      "parentId": 559,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6360779~p=7~eid=00000187-761a-7338-0469-e1a300b1071d",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.8 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "39187",
+        "deliveryTime": 34,
+        "minDeliveryTime": 34,
+        "maxDeliveryTime": 34,
+        "lastMileTravel": 1.899999976158142,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.1",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "106763",
+      "name": "Rangoon Zaika",
+      "uuid": "cd078e24-0fae-46d9-9e45-ccedc30a0834",
+      "city": "5",
+      "area": "Kurla West",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "o5bbufmcjoqdfvtm7r1n",
+      "cuisines": ["Indian", "Chinese"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 32,
+      "minDeliveryTime": 32,
+      "maxDeliveryTime": 32,
+      "slaString": "32 MINS",
+      "lastMileTravel": 0.6000000238418579,
+      "slugs": {
+        "restaurant": "rangoon-zaika-kurla-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Shop 4B-4C, Opposite Kalpana Cinema, Beside Ansari Weight Bridge, LBS Marg, Kurla, Mumbai",
+      "locality": "Kurla",
+      "parentId": 166932,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "106763",
+        "deliveryTime": 32,
+        "minDeliveryTime": 32,
+        "maxDeliveryTime": 32,
+        "lastMileTravel": 0.6000000238418579,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.6",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "32399",
+      "name": "McDonald's",
+      "uuid": "50a56a02-357f-4041-a250-478dc74a7868",
+      "city": "5",
+      "area": "Santacruz East",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "7bb739d7f6ae8b4ce8ed590765dffd2f",
+      "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 1.2999999523162842,
+      "slugs": {
+        "restaurant": "mcdonalds-kalina-artista-scruz-bandra-east",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Hardcastle Restaurants Pvt Ltd, McDonalds Family Restaurants Pvt Ltd, Sumit Artista, G-28, Vidya Nagari Rd, Mathuradas Colony, Kalina, Santacruz East, Mumbai, Maharashtra 400098.",
+      "locality": "Kalina Artista",
+      "parentId": 630,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "10% off",
+        "shortDescriptionList": [
+          {
+            "meta": "10% off | Use PARTY",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "10% off | Use code PARTY",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "10% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use PARTY",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "10% off | Use code PARTY",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.2 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "32399",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 1.2999999523162842,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.3",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "176437",
+      "name": "Oh! Calcutta",
+      "uuid": "471a69b2-e490-40cf-82fb-750b84e9d69a",
+      "city": "5",
+      "area": "Powai Area",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "wzbbbhhxlpsv6wmafnzu",
+      "cuisines": ["Indian"],
+      "tags": [],
+      "costForTwo": 80000,
+      "costForTwoString": "₹800 FOR TWO",
+      "deliveryTime": 46,
+      "minDeliveryTime": 46,
+      "maxDeliveryTime": 46,
+      "slaString": "46 MINS",
+      "lastMileTravel": 5,
+      "slugs": {
+        "restaurant": "oh-calcutta-saki-vihar-rd-marol-sakinaka",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Gala 7 & 8, Building 41, National House, Chandiwali Junction, Saki Vihar Road, Powai, Mumbai",
+      "locality": "Powai Area",
+      "parentId": 672,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹150 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹1099",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹1099 | Use code FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹150 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹1099 | Use code FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 6000,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 6000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "6000",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6381707~p=10~eid=00000187-761a-7338-0469-e1a400b10a6a",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "176437",
+        "deliveryTime": 46,
+        "minDeliveryTime": 46,
+        "maxDeliveryTime": 46,
+        "lastMileTravel": 5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.3",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "48030",
+      "name": "Sahara Hotel - Kurla",
+      "uuid": "4ffa188b-b74e-4b62-b141-de7a145f8efe",
+      "city": "5",
+      "area": "Kurla",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "qhd1a0qhl4iuaiwpf5rs",
+      "cuisines": ["North Indian", "Chinese", "Mughlai", "Beverages"],
+      "tags": [],
+      "costForTwo": 65000,
+      "costForTwoString": "₹650 FOR TWO",
+      "deliveryTime": 35,
+      "minDeliveryTime": 35,
+      "maxDeliveryTime": 35,
+      "slaString": "35 MINS",
+      "lastMileTravel": 0.699999988079071,
+      "slugs": {
+        "restaurant": "sahara-hotel-kurla-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Near Kalpana Cinema, LBS Marg, Kurla West, Kurla, Mumbai",
+      "locality": "Near Kalpana Cinema",
+      "parentId": 174631,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "15% off",
+        "shortDescriptionList": [
+          {
+            "meta": "15% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "15% off up to ₹45 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "15% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "15% off up to ₹45 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "48030",
+        "deliveryTime": 35,
+        "minDeliveryTime": 35,
+        "maxDeliveryTime": 35,
+        "lastMileTravel": 0.699999988079071,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "9862",
+      "name": "Pizza Hut",
+      "uuid": "49b8dee0-d9f1-4413-aaf3-6317d27218c7",
+      "city": "5",
+      "area": "Santacruz East",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "cdhg2p4ck0jmvygcg5jl",
+      "cuisines": ["Pizzas"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 36,
+      "minDeliveryTime": 36,
+      "maxDeliveryTime": 36,
+      "slaString": "36 MINS",
+      "lastMileTravel": 1.5,
+      "slugs": {
+        "restaurant": "pizza-hut-bkc-scruz-bandra-east",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "BPCL petrol Pump,Opp citi group,Bandra Kurla complex",
+      "locality": "BKC",
+      "parentId": 721,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "30% off",
+        "shortDescriptionList": [
+          {
+            "meta": "30% off | Use SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "30% off up to ₹75 | Use code SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "30% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "30% off up to ₹75 | Use code SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "9862",
+        "deliveryTime": 36,
+        "minDeliveryTime": 36,
+        "maxDeliveryTime": 36,
+        "lastMileTravel": 1.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.8",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "40803",
+      "name": "Delhi Zaika",
+      "uuid": "973df093-c58f-4e10-a33f-cb0ee42cdfc2",
+      "city": "5",
+      "area": "Kurla West",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "vc1opzfwu6w9oyaqsy0w",
+      "cuisines": ["Indian", "Chinese"],
+      "tags": [],
+      "costForTwo": 80000,
+      "costForTwoString": "₹800 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 0.699999988079071,
+      "slugs": {
+        "restaurant": "delhi-zaika-kurla-ghatkopar-vikhroli",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Opp. Sahara Hotel, Near Fauzia Hospital, Lal Bahadur Shastri Marg, Kurla West - 400070",
+      "locality": "Kurla",
+      "parentId": 314,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [
+        {
+          "type": "PROMOTED"
+        }
+      ],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6332247~p=13~eid=00000187-761a-7338-0469-e1a500b10d23",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "40803",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 0.699999988079071,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "3.8",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "303850",
+      "name": "JANATA TAWA AND GRILL",
+      "uuid": "b80b70ef-954f-46a4-9d17-63516b03c9b6",
+      "city": "5",
+      "area": "Kurla West",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "zrusx2rcjtsxpksm4lne",
+      "cuisines": ["Indian", "Chinese", "Tandoor"],
+      "tags": [],
+      "costForTwo": 50000,
+      "costForTwoString": "₹500 FOR TWO",
+      "deliveryTime": 38,
+      "minDeliveryTime": 38,
+      "maxDeliveryTime": 38,
+      "slaString": "38 MINS",
+      "lastMileTravel": 0.6000000238418579,
+      "slugs": {
+        "restaurant": "janata\ttawa\tand\tgrill-kurla-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "SHOP\tNO\t01\tAND\t02\tRASIWALA\tCHAWL\tNEAR\tSALMAN\tCHAMBER\tKURLA\tWEST MUMBAI\t400070\tGREATER\tMUMBAI,\tMAHARASHTRA\t400070",
+      "locality": "Kurla",
+      "parentId": 109562,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "20% off",
+        "shortDescriptionList": [
+          {
+            "meta": "20% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "20% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "303850",
+        "deliveryTime": 38,
+        "minDeliveryTime": 38,
+        "maxDeliveryTime": 38,
+        "lastMileTravel": 0.6000000238418579,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.2",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "366927",
+      "name": "Taj King Shawarma",
+      "uuid": "26cdd7f2-7037-47b3-ac0f-e6c6db511716",
+      "city": "5",
+      "area": "Kurla",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "yacdchtguervnbremc5g",
+      "cuisines": ["Indian"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 33,
+      "minDeliveryTime": 33,
+      "maxDeliveryTime": 33,
+      "slaString": "33 MINS",
+      "lastMileTravel": 0.699999988079071,
+      "slugs": {
+        "restaurant": "taj-king-shawarma-kurla-kurla",
+        "city": "mumbai"
+      },
+      "cityState": "5",
+      "address": "Shop 4, Near Kurla Weigst, Vridge Kurla, Mumbai",
+      "locality": "Near Kurla Weigst",
+      "parentId": 200121,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "20% off",
+        "shortDescriptionList": [
+          {
+            "meta": "20% off on all orders",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off on all orders",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "20% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off on all orders",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "distance",
+            "fee": 3700,
+            "message": ""
+          },
+          {
+            "name": "time",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "special",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 3700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "366927",
+        "deliveryTime": 33,
+        "minDeliveryTime": 33,
+        "maxDeliveryTime": 33,
+        "lastMileTravel": 0.699999988079071,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  }
+]
