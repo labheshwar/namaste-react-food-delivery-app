@@ -39,32 +39,37 @@ const Navbar = () => {
 const Body = () => {
   return (
     <main>
-      <Card />
+      {data.map((item) => {
+        return <Card key={item.data.uuid} {...item.data} />;
+      })}
     </main>
   );
 };
 
-const Card = () => {
+const Card = ({
+  name,
+  cuisines,
+  cloudinaryImageId: imageId,
+  avgRating: rating,
+  costForTwo: price,
+}) => {
+  const imageUrl =
+    'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/' +
+    imageId;
   return (
     <div className='card'>
-      <img
-        src={
-          'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/' +
-          data[0].data.cloudinaryImageId
-        }
-        alt={data[0].name}
-      />
-      <h1>{data[0].data.name}</h1>
+      <img src={imageUrl} alt={name} />
+      <h1>{name}</h1>
       <p>
         Cuisines: <br />
-        {data[0].data.cuisines.join(', ')}
+        {cuisines.join(', ')}
       </p>
       <div className='price'>
         <p>
-          {data[0].data.avgRating}{' '}
+          {rating}{' '}
           <i className='fa-solid fa-star' style={{ color: '#ffde0a' }}></i>
         </p>
-        <p>Rs. {data[0].data.costForTwo / 100}/-</p>
+        <p>Rs. {price / 100}/-</p>
       </div>
     </div>
   );
