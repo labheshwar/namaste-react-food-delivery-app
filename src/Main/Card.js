@@ -1,4 +1,4 @@
-import { IMAGE_URL as imageUrl } from "../config";
+import { IMAGE_URL as imageUrl } from '../config';
 
 const Card = ({
   name,

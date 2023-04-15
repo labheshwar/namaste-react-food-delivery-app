@@ -1,82 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    height: 15vh;
-    background-color: #003E5D;
-    color: white;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  background-color: #003e5d;
+  color: white;
+  justify-content: space-between;
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
-    width: 30%;
-    justify-content: space-around;
+  display: flex;
+  list-style: none;
+  width: 30%;
+  justify-content: space-around;
 }
 
 .navbar ul li:hover {
-    transition: 0.3s;
-    background-color: #00A0D1;
-    border-radius: 10px;
-    cursor: pointer;
+  transition: 0.3s;
+  background-color: #00a0d1;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo h1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .logo h1 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
-    margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.search input {
+  width: 80%;
+  height: 2.5rem;
+  border: 1px solid #003e5d;
+  border-radius: 5px;
+  padding: 0 1rem;
+}
+
+.search button {
+  width: 15%;
+  margin-left: 1rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  background-color: #003e5d;
+  color: white;
+  cursor: pointer;
+}
+
+.search button:hover {
+  transition: 0.3s;
+  background-color: #00a0d1;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    background-color: #003E5D;
-    filter: opacity(0.9);
-    color: white;
-    padding: 1rem;
-    margin: 1rem;
-    width: 16.1rem;
-    cursor: pointer;
-    height: 65vh;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background-color: #003e5d;
+  filter: opacity(0.9);
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  width: 16.1rem;
+  cursor: pointer;
+  height: 65vh;
+  justify-content: space-between;
 }
 
 .card:hover {
-    filter: opacity(1);
-    transition: 0.3s;
+  filter: opacity(1);
+  transition: 0.3s;
 }
 
 .price {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
