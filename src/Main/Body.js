@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Card from './Card';
 import data from '../restaurantData.json';
-import Search from '../Search';
+import Search from './Search';
 
 const Body = () => {
   const [searchText, setSearchText] = useState('');

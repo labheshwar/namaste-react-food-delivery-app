@@ -8,7 +8,10 @@ const Search = ({ searchText, setSearchText, filterRestaurant }) => {
           type='search'
           value={searchText}
           placeholder='Search for restaurants'
-          onChange={(e) => setSearchText(e.target.value)}
+          onChange={(e) => {
+            setSearchText(e.target.value);
+            filterRestaurant();
+          }}
           onKeyDown={(e) => e.key === 'Enter' && filterRestaurant()}
         />
         <button onClick={filterRestaurant}>Search</button>
