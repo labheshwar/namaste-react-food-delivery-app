@@ -7,9 +7,9 @@ const Body = () => {
   const [searchText, setSearchText] = useState('');
   const [restaurantData, setRestaurantData] = useState(data);
 
-  const filterRestaurant = () => {
+  const filterRestaurant = (value) => {
     const filteredData = data.filter((item) =>
-      item.data.name.toLowerCase().includes(searchText.toLowerCase())
+      item.data.name.toLowerCase().includes(value.toLowerCase())
     );
     setRestaurantData(filteredData);
   };
