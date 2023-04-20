@@ -109,3 +109,22 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.error {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0 0 3rem;
+  height: 100vh;
+  background-color: #003e5d;
+  color: white;
+}
+
+.error h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.error p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
