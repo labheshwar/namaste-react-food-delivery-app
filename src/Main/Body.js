@@ -48,9 +48,9 @@ const Body = () => {
         setSearchText={setSearchText}
         filterRestaurant={filterRestaurant}
       />
-      {restaurantData.length === 0 ? (
+      {restaurantData?.length === 0 ? (
         <Shimmer />
-      ) : filteredData.length === 0 ? (
+      ) : filteredData?.length === 0 ? (
         <Error
           title={'No Restaurant Found'}
           paragraph={
@@ -59,7 +59,7 @@ const Body = () => {
         />
       ) : (
         <main>
-          {filteredData.map((item) => {
+          {filteredData?.map((item) => {
             return <Card key={item.data.uuid} {...item.data} />;
           })}
         </main>
