@@ -2,7 +2,6 @@
   "name": "5-assignment",
   "version": "1.0.0",
   "description": "Food Anamoly is a food ordering app that let's you order food online. It is part of self-paced project assigned by Akshay Saini in Lecture No. 5 of Namaste React Bootcamp.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
