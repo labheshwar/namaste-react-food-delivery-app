@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import RestaurantInfo from './RestaurantInfo';
+import RestaurantMenu from './RestaurantMenu';
 import { API_RESTAURANT_INFO_URL } from '../config';
 import Error from '../Error';
 
@@ -29,7 +30,7 @@ const RestaurantDetails = () => {
         cuisines,
         isOpen,
         logo,
-        totalRatings,
+        totalRatingsString,
       } = json?.data?.cards[0]?.card?.card?.info;
       const { deliveryTime } = json?.data?.cards[0]?.card?.card?.info?.sla;
       setRestaurantInfo({
@@ -43,16 +44,19 @@ const RestaurantDetails = () => {
         cuisines,
         isOpen,
         logo,
-        totalRatings,
+        totalRatingsString,
         deliveryTime,
       });
-      setRestaurantMenu(
-        json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards
-      );
+
+      const restaurantCards =
+        json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
+
+      setRestaurantMenu(restaurantCards);
     } catch (error) {
       setError('Something Went Wrong');
     }
   };
+  console.log(restaurantMenu);
   return (
     <>
       {error ? (
@@ -65,6 +69,7 @@ const RestaurantDetails = () => {
       ) : (
         <>
           <RestaurantInfo restaurantInfo={restaurantInfo} />
+          <RestaurantMenu restaurantMenu={restaurantMenu} />
         </>
       )}
     </>

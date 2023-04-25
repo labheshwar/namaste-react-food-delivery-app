@@ -327,3 +327,60 @@ main {
   width: 30%;
   background-color: lightblue;
 }
+
+/* Menu CSS */
+
+.menu-title {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.menuItem {
+  background-color: #fff;
+  color: #003e5d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 2rem;
+}
+
+.menuItemName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menuItemCategory {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.menuItemDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuItemPrice {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menuItemVeg {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3ca372;
+  margin-left: 10px;
+}
+
+.menuItemRating {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-name-rating {
+  display: flex;
+  justify-content: space-between;
+}

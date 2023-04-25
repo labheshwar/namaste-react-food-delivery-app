@@ -12,7 +12,7 @@ const RestaurantInfo = ({ restaurantInfo }) => {
     costForTwo,
     cuisines,
     isOpen,
-    totalRatings,
+    totalRatingsString,
     deliveryTime,
   } = restaurantInfo;
 
@@ -57,7 +57,7 @@ const RestaurantInfo = ({ restaurantInfo }) => {
                     style={{ color: '#ffde0a' }}
                   ></i>
                 </p>
-                <p className='total-ratings'>Total Ratings: {totalRatings}</p>
+                <p className='total-ratings'>{totalRatingsString}</p>
               </div>
             </div>
           </div>
