@@ -242,3 +242,88 @@ main {
 .additional-info .ratings {
   margin-top: auto;
 }
+
+/* Restaurant Info Shimmer CSS */
+
+.restaurant-info-shimmer {
+  box-shadow: 0 0 10px #003e5d;
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.info-container-shimmer {
+  display: flex;
+}
+
+.logo-container-shimmer {
+  width: 30%;
+}
+
+.logo-shimmer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  background-color: lightblue;
+}
+
+.additional-info-shimmer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.location-shimmer {
+  height: 2rem;
+  width: 30%;
+  margin-bottom: 0.5rem;
+  background-color: lightblue;
+}
+
+.open-status-shimmer {
+  height: 2rem;
+  width: 5%;
+  background-color: lightblue;
+}
+
+.restaurant-info-cuisines-shimmer {
+  height: 2rem;
+  margin: 1rem 0;
+  width: 50%;
+  background-color: lightblue;
+}
+
+.delivery-and-cost-shimmer {
+  margin-bottom: 1rem;
+}
+
+.cost-for-two-shimmer {
+  height: 2rem;
+  width: 40%;
+  margin-right: 1rem;
+  background-color: lightblue;
+}
+
+.delivery-time-shimmer {
+  height: 2rem;
+  width: 30%;
+  background-color: lightblue;
+}
+
+.ratings-shimmer {
+  margin-top: auto;
+}
+
+.restaurant-info-rating-shimmer {
+  height: 2rem;
+  width: 40%;
+  margin-right: 1rem;
+  background-color: lightblue;
+}
+
+.total-ratings-shimmer {
+  height: 2rem;
+  width: 30%;
+  background-color: lightblue;
+}

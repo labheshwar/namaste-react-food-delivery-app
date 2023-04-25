@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import RestaurantInfoShimmer from './RestaurantInfoShimmer';
 import { IMAGE_URL } from '../config';
 
 const RestaurantInfo = ({ restaurantInfo }) => {
@@ -62,7 +63,7 @@ const RestaurantInfo = ({ restaurantInfo }) => {
           </div>
         </div>
       ) : (
-        <h1>Loading...</h1>
+        <RestaurantInfoShimmer />
       )}
     </>
   );
