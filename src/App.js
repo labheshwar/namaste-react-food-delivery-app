@@ -1,19 +1,57 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import './style.css';
 import Navbar from './Navbar';
 import Body from './Main/Body';
 import Footer from './Footer';
+import Error from './Error';
+import About from './About/About';
+import Contacts from './Contact/Contact';
+import RestaurantDetails from './RestaurantInfo/RestaurantDetails';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Body />
+      <Outlet />
       <Footer />
     </>
   );
 };
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        path: '/',
+        element: <Body />,
+      },
+      {
+        path: '/about',
+        element: <About />,
+      },
+      {
+        path: '/contact',
+        element: <Contacts />,
+      },
+      {
+        path: 'restaurant/:id',
+        element: <RestaurantDetails />,
+      },
+      {
+        path: '*',
+        element: <Error title='404' paragraph='Page Not Found' />,
+      },
+    ],
+  },
+]);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <RouterProvider router={router}>
+    <App />
+  </RouterProvider>
+);

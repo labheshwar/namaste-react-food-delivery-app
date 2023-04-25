@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Logo = () => {
   return (
     <div className='logo'>
@@ -18,13 +21,13 @@ const Navbar = () => {
       <Logo />
       <ul>
         <li>
-          <a>Home</a>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <a>About</a>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <a>Contact</a>
+          <Link to='/contact'>Contact</Link>
         </li>
       </ul>
     </nav>

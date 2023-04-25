@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import Card from './Card';
 import Search from './Search';
-import Error from './Error';
+import Error from '../Error';
 import Shimmer from './Shimmer';
-import { API_URL } from '../config';
+import { API_ALL_RESTAURANTS } from '../config';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
   const [searchText, setSearchText] = useState('');
@@ -13,7 +14,10 @@ const Body = () => {
 
   const filterRestaurant = (value) => {
     const dataAfterFilter = restaurantData.filter((item) =>
-      item.data.name.toLowerCase().includes(value.toLowerCase())
+      item.data.name
+        .toLowerCase()
+        .replace(/\s/g, '')
+        .includes(value.toLowerCase())
     );
     setFilteredData(dataAfterFilter);
   };
@@ -24,7 +28,7 @@ const Body = () => {
 
   const callApi = async () => {
     try {
-      const data = await fetch(API_URL);
+      const data = await fetch(API_ALL_RESTAURANTS);
       const json = await data.json();
       const destructuredData = json?.data?.cards[2]?.data?.data?.cards;
       setRestaurantData(destructuredData);
@@ -60,7 +64,15 @@ const Body = () => {
       ) : (
         <main>
           {filteredData?.map((item) => {
-            return <Card key={item.data.uuid} {...item.data} />;
+            return (
+              <Link
+                className='card-container'
+                to={`/restaurant/${item.data.id}`}
+                key={item.data.uuid}
+              >
+                <Card {...item.data} />
+              </Link>
+            );
           })}
         </main>
       )}

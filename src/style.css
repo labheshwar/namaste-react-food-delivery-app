@@ -30,6 +30,11 @@
   cursor: pointer;
 }
 
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -84,6 +89,10 @@ main {
 .search button:hover {
   transition: 0.3s;
   background-color: #00a0d1;
+}
+
+.card-container {
+  text-decoration: none;
 }
 
 .card {
@@ -147,15 +156,6 @@ main {
   justify-content: space-between;
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 400% 0;
-  }
-}
-
 .shimmer__image {
   width: 100%;
   height: 40%;
@@ -197,4 +197,48 @@ main {
   width: 30%;
   height: 1.5rem;
   background-color: lightblue;
+}
+
+/* CSS For Restaurant Info Page */
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.restaurant-info {
+  box-shadow: 0 0 10px #003e5d;
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-container .logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.additional-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.location h1 {
+  margin: 1rem 0 0.3rem 0;
+}
+
+.restaurant-info-cuisines {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.additional-info .ratings {
+  margin-top: auto;
 }
