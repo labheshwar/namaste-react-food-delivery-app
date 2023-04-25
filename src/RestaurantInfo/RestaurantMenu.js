@@ -76,13 +76,11 @@ const RestaurantMenu = ({ restaurantMenu }) => {
   }, [restaurantMenu]);
   return (
     <>
-      {!isLoaded ? (
-        <h1>Loading</h1>
-      ) : (
-        restaurantMenu.map((item, index) => (
-          <RestaurantMenuTitle key={index} item={item} />
-        ))
-      )}
+      {!isLoaded
+        ? null
+        : restaurantMenu.map((item, index) => (
+            <RestaurantMenuTitle key={index} item={item} />
+          ))}
     </>
   );
 };
