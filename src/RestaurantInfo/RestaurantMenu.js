@@ -19,9 +19,8 @@ const RestaurantMenuTitle = ({ item }) => {
                 category,
                 price,
                 vegClassifier,
-                rating: menuItem?.card?.info?.ratings?.aggregatedRating.rating,
-                ratingCount:
-                  menuItem?.card?.info?.ratings?.aggregatedRating.ratingCount,
+                rating,
+                ratingCount,
               };
 
               return (
@@ -70,7 +69,7 @@ const RestaurantMenuItem = ({ menuItem }) => {
 const RestaurantMenu = ({ restaurantMenu }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   useEffect(() => {
-    if (restaurantMenu.length !== 0) {
+    if (restaurantMenu?.length !== 0) {
       setIsLoaded(true);
     }
   }, [restaurantMenu]);
