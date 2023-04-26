@@ -9,11 +9,11 @@ const Card = ({
 }) => {
   return (
     <div className='card'>
-      <img src={imageUrl + imageId} alt={name} />
+      {imageId && <img src={imageUrl + imageId} alt={name} />}
       <h1>{name}</h1>
       <p>
         Cuisines: <br />
-        {cuisines.join(', ')}
+        {cuisines?.join(', ')}
       </p>
       <div className='price'>
         <p>

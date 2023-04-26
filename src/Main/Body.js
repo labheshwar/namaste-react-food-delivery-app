@@ -10,11 +10,12 @@ const Body = () => {
   const [searchText, setSearchText] = useState('');
   const [restaurantData, setRestaurantData] = useState([]);
   const [filteredData, setFilteredData] = useState(restaurantData);
+  const [offset, setOffset] = useState(16);
   const [error, setError] = useState('');
 
   const filterRestaurant = (value) => {
     const dataAfterFilter = restaurantData.filter((item) =>
-      item.data.name
+      item.data.data.name
         .toLowerCase()
         .replace(/\s/g, '')
         .includes(value.toLowerCase())
@@ -28,15 +29,31 @@ const Body = () => {
 
   const callApi = async () => {
     try {
-      const data = await fetch(API_ALL_RESTAURANTS);
+      const data = await fetch(API_ALL_RESTAURANTS(offset));
       const json = await data.json();
-      const destructuredData = json?.data?.cards[2]?.data?.data?.cards;
+      const destructuredData = json?.data?.cards;
       setRestaurantData(destructuredData);
       setFilteredData(destructuredData);
     } catch (error) {
       setError('Something Went Wrong');
     }
   };
+
+  const loadMoreData = async () => {
+    setOffset((prevOffset) => prevOffset + 16);
+    try {
+      const data = await fetch(API_ALL_RESTAURANTS(offset + 16));
+      const json = await data.json();
+      const destructuredData = json?.data?.cards;
+      setRestaurantData([...restaurantData, ...destructuredData]);
+      setFilteredData([...restaurantData, ...destructuredData]);
+    } catch (error) {
+      setError('Something Went Wrong');
+    }
+  };
+
+  console.log(restaurantData?.length);
+  console.log(offset);
 
   return error ? (
     <Error
@@ -67,13 +84,17 @@ const Body = () => {
             return (
               <Link
                 className='card-container'
-                to={`/restaurant/${item.data.id}`}
-                key={item.data.uuid}
+                to={`/restaurant/${item.data.data.id}`}
+                key={item.data.data.uuid}
               >
-                <Card {...item.data} />
+                <Card {...item.data.data} />
               </Link>
             );
           })}
+          {restaurantData?.length !== offset && <Shimmer />}
+          <button className='load-more-data-button' onClick={loadMoreData}>
+            Load More
+          </button>
         </main>
       )}
     </>
