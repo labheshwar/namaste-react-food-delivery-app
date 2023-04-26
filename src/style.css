@@ -10,7 +10,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   background-color: #003e5d;
   color: white;
   justify-content: space-between;
@@ -431,4 +431,67 @@ main {
 .menu-name-rating {
   display: flex;
   justify-content: space-between;
+}
+
+/* Login Page */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-form-container {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container h1 {
+  text-align: center;
+}
+
+.login-form label {
+  font-size: 1rem;
+  margin: 0.8rem 0 0.4rem 0;
+}
+
+.login-form input {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #003e5d;
+}
+
+.login-form input:hover {
+  border: 1px solid #003e5d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form input::placeholder {
+  color: #003e5d;
+}
+
+.formik-error {
+  color: red;
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+  float: right;
+}
+
+.login-form button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #003e5d;
+  background-color: #003e5d;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
 }

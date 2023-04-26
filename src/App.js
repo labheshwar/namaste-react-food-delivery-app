@@ -8,6 +8,7 @@ import Footer from './Footer';
 import Error from './Error';
 import About from './About/About';
 import Contacts from './Contact/Contact';
+import Login from './Authentication/Login';
 import RestaurantDetails from './RestaurantInfo/RestaurantDetails';
 
 const App = () => {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contacts />,
+      },
+      {
+        path: '/login',
+        element: <Login />,
       },
       {
         path: 'restaurant/:id',
