@@ -52,9 +52,6 @@ const Body = () => {
     }
   };
 
-  console.log(restaurantData?.length);
-  console.log(offset);
-
   return error ? (
     <Error
       title={'Something Went Wrong'}
