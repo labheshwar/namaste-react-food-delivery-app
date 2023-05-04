@@ -10,7 +10,7 @@ const Body = () => {
   const [searchText, setSearchText] = useState('');
   const [restaurantData, setRestaurantData] = useState([]);
   const [filteredData, setFilteredData] = useState(restaurantData);
-  const [offset, setOffset] = useState(16);
+  const [offset, setOffset] = useState(0);
   const [error, setError] = useState('');
 
   const filterRestaurant = (value) => {
@@ -24,29 +24,22 @@ const Body = () => {
   };
 
   useEffect(() => {
-    callApi();
+    callApi(offset);
   }, []);
 
-  const callApi = async () => {
-    try {
-      const data = await fetch(API_ALL_RESTAURANTS(offset));
-      const json = await data.json();
-      const destructuredData = json?.data?.cards;
-      setRestaurantData(destructuredData);
-      setFilteredData(destructuredData);
-    } catch (error) {
-      setError('Something Went Wrong');
-    }
-  };
-
-  const loadMoreData = async () => {
+  const callApi = async (offset) => {
     setOffset((prevOffset) => prevOffset + 16);
     try {
       const data = await fetch(API_ALL_RESTAURANTS(offset + 16));
       const json = await data.json();
       const destructuredData = json?.data?.cards;
-      setRestaurantData([...restaurantData, ...destructuredData]);
-      setFilteredData([...restaurantData, ...destructuredData]);
+      if (restaurantData?.length === 0) {
+        setRestaurantData(destructuredData);
+        setFilteredData(destructuredData);
+      } else {
+        setRestaurantData([...restaurantData, ...destructuredData]);
+        setFilteredData([...restaurantData, ...destructuredData]);
+      }
     } catch (error) {
       setError('Something Went Wrong');
     }
@@ -89,7 +82,10 @@ const Body = () => {
             );
           })}
           {restaurantData?.length !== offset && <Shimmer />}
-          <button className='load-more-data-button' onClick={loadMoreData}>
+          <button
+            className='load-more-data-button'
+            onClick={() => callApi(offset)}
+          >
             Load More
           </button>
         </main>

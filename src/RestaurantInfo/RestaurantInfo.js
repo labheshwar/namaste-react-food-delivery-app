@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
 import RestaurantInfoShimmer from './RestaurantInfoShimmer';
 import { IMAGE_URL } from '../config';
+import useLoaded from '../Hooks/useLoaded';
 
 const RestaurantInfo = ({ restaurantInfo }) => {
   const {
@@ -16,13 +16,7 @@ const RestaurantInfo = ({ restaurantInfo }) => {
     deliveryTime,
   } = restaurantInfo;
 
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    if (cloudinaryImageId) {
-      setIsLoaded(true);
-    }
-  }, [restaurantInfo]);
+  const isLoaded = useLoaded(cloudinaryImageId, [restaurantInfo]);
 
   return (
     <>
