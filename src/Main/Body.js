@@ -83,7 +83,7 @@ const Body = () => {
           })}
           {restaurantData?.length !== offset && <Shimmer />}
           <button
-            className='load-more-data-button'
+            className='w-full h-10 m-4 text-base bg-teal-800 text-white rounded-md hover:duration-200 hover:bg-teal-900'
             onClick={() => callApi(offset)}
           >
             Load More
