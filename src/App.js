@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import './style.css';
+import './index.css';
 import Navbar from './Navbar';
 import Body from './Main/Body';
 import Footer from './Footer';
