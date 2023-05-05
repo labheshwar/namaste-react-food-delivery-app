@@ -8,19 +8,25 @@ const Card = ({
   costForTwo: price,
 }) => {
   return (
-    <div className='card'>
+    <div className='flex flex-col bg-teal-800 opacity-90 text-white p-4 m-4 h-96 w-64 cursor-pointer hover:duration-300 hover:opacity-100'>
       {imageId && <img src={imageUrl + imageId} alt={name} />}
-      <h1>{name}</h1>
-      <p>
-        Cuisines: <br />
-        {cuisines?.join(', ')}
-      </p>
-      <div className='price'>
+      <div className='flex flex-col justify-between h-full'>
+        <h1 className='font-bold text-xl pt-7'>{name}</h1>
         <p>
-          {rating}{' '}
-          <i className='fa-solid fa-star' style={{ color: '#ffde0a' }}></i>
+          <span className='font-semibold text-lg'>Cuisines:</span>
+          <span className='ml-3'>
+            {cuisines?.join(', ').length > 30
+              ? cuisines?.join(', ').slice(0, 30) + '...'
+              : cuisines?.join(', ')}
+          </span>
         </p>
-        <p>Rs. {price / 100}/-</p>
+        <div className='flex justify-between'>
+          <p>
+            {rating}{' '}
+            <i className='fa-solid fa-star' style={{ color: '#ffde0a' }}></i>
+          </p>
+          <p className='font-semibold'>Rs. {price / 100}/-</p>
+        </div>
       </div>
     </div>
   );

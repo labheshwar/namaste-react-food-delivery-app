@@ -22,7 +22,7 @@ const Body = () => {
     );
     setFilteredData(dataAfterFilter);
   };
-
+  console.log(restaurantData);
   useEffect(() => {
     callApi(offset);
   }, []);
@@ -69,7 +69,7 @@ const Body = () => {
           }
         />
       ) : (
-        <main>
+        <main className='flex flex-wrap justify-center bg-teal-50'>
           {filteredData?.map((item) => {
             return (
               <Link

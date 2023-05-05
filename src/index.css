@@ -2,87 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  padding: 1rem 0;
-  background-color: #003e5d;
-  color: white;
-  justify-content: space-between;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  width: 30%;
-  justify-content: space-around;
-}
-
-.navbar ul li a:hover {
-  transition: 0.3s;
-  background-color: #00a0d1;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo h1 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.logo h1 a {
-  text-decoration: none;
-  color: white;
-}
-
-.logo img {
-  width: 50px;
-  height: 50px;
-  margin: 0 20px;
-}
-
-@media screen and (max-width: 700px) {
-  .navbar {
-    flex-direction: column;
-    padding: 1.5rem 0;
-  }
-
-  .navbar ul {
-    width: 100%;
-    margin-top: 1rem;
-    justify-content: space-around;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .navbar ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar ul li {
-    margin-top: 1rem;
-  }
-}
-
+/*
 main {
   display: flex;
   flex-wrap: wrap;
@@ -130,28 +50,6 @@ main {
   }
 }
 
-.card-container {
-  text-decoration: none;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  background-color: #003e5d;
-  filter: opacity(0.9);
-  color: white;
-  padding: 1rem;
-  margin: 1rem;
-  width: 16.1rem;
-  cursor: pointer;
-  height: 24rem;
-  justify-content: space-between;
-}
-
-.card:hover {
-  filter: opacity(1);
-  transition: 0.3s;
-}
 
 .price {
   display: flex;
@@ -167,25 +65,6 @@ main {
   background-color: #003e5d;
   color: white;
   cursor: pointer;
-}
-
-
-.error {
-  display: flex;
-  flex-direction: column;
-  padding: 7rem 0 0 3rem;
-  height: 100vh;
-  color: #003e5d;
-}
-
-.error h1 {
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.error p {
-  margin-top: 2rem;
-  font-size: 1.5rem;
 }
 
 

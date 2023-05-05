@@ -13,11 +13,11 @@ import RestaurantDetails from './RestaurantInfo/RestaurantDetails';
 
 const App = () => {
   return (
-    <>
+    <div className='font-inter'>
       <Navbar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 
