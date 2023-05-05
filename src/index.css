@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -169,7 +169,6 @@ main {
   cursor: pointer;
 }
 
-/* CSS For Error Page */
 
 .error {
   display: flex;
@@ -189,7 +188,6 @@ main {
   font-size: 1.5rem;
 }
 
-/* CSS For Shimmer Effect */
 
 .shimmer__parent {
   display: flex;
@@ -249,7 +247,6 @@ main {
   background-color: lightblue;
 }
 
-/* CSS For Restaurant Info Page */
 
 .flex-space-between {
   display: flex;
@@ -293,7 +290,6 @@ main {
   margin-top: auto;
 }
 
-/* Restaurant Info Shimmer CSS */
 
 .restaurant-info-shimmer {
   box-shadow: 0 0 10px #003e5d;
@@ -378,7 +374,6 @@ main {
   background-color: lightblue;
 }
 
-/* Menu CSS */
 
 .menu-title {
   font-size: 2rem;
@@ -435,7 +430,6 @@ main {
   justify-content: space-between;
 }
 
-/* Login Page */
 
 .login-page {
   display: flex;
@@ -496,4 +490,4 @@ main {
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
-}
+} */
