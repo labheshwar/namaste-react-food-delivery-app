@@ -30,37 +30,52 @@ const Login = () => {
   });
 
   return (
-    <div className='login-page'>
-      <div className='login-form-container'>
-        <h1>Login</h1>
-        <form className='login-form' onSubmit={formik.handleSubmit}>
-          <label htmlFor='email'>Email</label>
+    <div className='flex justify-center h-80vh items-center'>
+      <div className='w-4/5 shadow-lg shadow-teal-800 rounded-lg p-5 md:w-3/5 lg:2/5'>
+        <h1 className='text-center font-bold text-xl text-teal-800'>Login</h1>
+        <form className='flex flex-col' onSubmit={formik.handleSubmit}>
+          <label className='text-base mt-3 mb-2' htmlFor='email'>
+            Email
+          </label>
           <input
             id='email'
             name='email'
             type='email'
             placeholder='Enter your email'
+            className='p-3 rounded-md shadow-sm shadow-teal-800 text-teal-800 hover:shadow-md placeholder:text-teal-800'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.email}
           />
           {formik.touched.email && formik.errors.email ? (
-            <div className='formik-error'>{formik.errors.email}</div>
+            <div className='text-teal-700 text-sm my-1  ml-auto'>
+              {formik.errors.email}
+            </div>
           ) : null}
-          <label htmlFor='password'>Password</label>
+          <label className='text-base mt-3 mb-2' htmlFor='password'>
+            Password
+          </label>
           <input
             id='password'
             name='password'
             type='password'
+            className='p-3 rounded-md shadow-sm shadow-teal-800 text-teal-800 hover:shadow-md placeholder:text-teal-800'
             placeholder='Enter your password'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.password}
           />
           {formik.touched.password && formik.errors.password ? (
-            <div className='formik-error'>{formik.errors.password}</div>
+            <div className='text-teal-700 text-sm my-1  ml-auto'>
+              {formik.errors.password}
+            </div>
           ) : null}
-          <button type='submit'>Submit</button>
+          <button
+            className='mt-4 p-3 rounded-md bg-teal-800 text-white text-base cursor-pointer'
+            type='submit'
+          >
+            Submit
+          </button>
         </form>
       </div>
     </div>

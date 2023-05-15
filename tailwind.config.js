@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      height: {
+        '80vh': '80vh',
+      },
     },
   },
   plugins: [],
