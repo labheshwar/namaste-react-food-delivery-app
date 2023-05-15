@@ -21,29 +21,33 @@ const RestaurantInfo = ({ restaurantInfo }) => {
   return (
     <>
       {isLoaded ? (
-        <div className='restaurant-info'>
-          <div className='info-container'>
-            <div className='logo'>
-              <img src={IMAGE_URL + cloudinaryImageId} alt='Logo' />
+        <div className='m-4 rounded-lg md:m-8 md:p-8 md:shadow-xl md:shadow-teal-800'>
+          <div className='flex flex-col md:flex-row'>
+            <div>
+              <img
+                className='w-40 h-40 rounded-full m-auto md:mr-12 md:w-50 md:h-50'
+                src={IMAGE_URL + cloudinaryImageId}
+                alt='Logo'
+              />
             </div>
-            <div className='additional-info'>
-              <div className='flex-space-between'>
+            <div className='flex flex-col w-full md:ml-8'>
+              <div className='flex justify-between'>
                 <div className='location'>
-                  <h1>{name}</h1>
+                  <h1 className='mt-4 mb-1 font-bold text-2xl'>{name}</h1>
                   <p>{`${areaName}, ${city}`}</p>
                 </div>
                 <div className='open-status'>{isOpen ? 'Open' : 'Closed'}</div>
               </div>
-              <div className='restaurant-info-cuisines'>
+              <div className='font-semibold font-mono text-xl mt-4'>
                 {cuisines.join(', ')}
               </div>
-              <div className='delivery-and-cost flex-space-between'>
+              <div className='mt-auto flex justify-between '>
                 <p className='cost-for-two'>{`Rs. ${
                   costForTwo / 100 / 2
                 }/-`}</p>
                 <p className='delivery-time'>{deliveryTime} Minutes</p>
               </div>
-              <div className='ratings flex-space-between'>
+              <div className='mt-auto flex justify-between w-full'>
                 <p className='restaurant-info-rating'>
                   {avgRating}{' '}
                   <i

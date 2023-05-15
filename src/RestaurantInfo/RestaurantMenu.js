@@ -77,7 +77,7 @@ const RestaurantMenu = ({ restaurantMenu }) => {
     <>
       {!isLoaded
         ? null
-        : restaurantMenu.map((item, index) => (
+        : restaurantMenu?.map((item, index) => (
             <RestaurantMenuTitle key={index} item={item} />
           ))}
     </>

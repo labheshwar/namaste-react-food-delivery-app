@@ -21,7 +21,7 @@ const ShimmerCard = () => (
 
 const Shimmer = () => {
   return (
-    <div className='flex flex-wrap'>
+    <div className='flex flex-wrap justify-center bg-teal-50'>
       <ShimmerCard />
       <ShimmerCard />
       <ShimmerCard />
