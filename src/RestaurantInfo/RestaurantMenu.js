@@ -6,7 +6,7 @@ const RestaurantMenuTitle = ({ item }) => {
     <>
       {!booleanExpression ? null : (
         <>
-          <h3 className='menu-title'>{item?.card?.card?.title}</h3>
+          <h3 className='text-3xl m-8'>{item?.card?.card?.title}</h3>
           <div className='menu-items'>
             {item?.card?.card?.itemCards?.map((menuItem) => {
               const { name, category, price } = menuItem?.card?.info;
@@ -42,11 +42,11 @@ const RestaurantMenuItem = ({ menuItem }) => {
     menuItem;
   console.log(name, category, price, vegClassifier, rating, ratingCount);
   return (
-    <div className='menuItem'>
-      <div className='menu-name-rating'>
-        <div className='menuItemName'>{name}</div>
+    <div className='bg-white text-teal-800 p-5 rounded-lg shadow-md shadow-gray-400 m-8'>
+      <div className='flex justify-between'>
+        <div className='text-2xl font-bold mb-3'>{name}</div>
         {rating !== undefined && ratingCount !== undefined ? (
-          <div className='menuItemRating'>
+          <div className='flex items-center font-lg'>
             {rating}{' '}
             <i
               className='fa-solid fa-star'
@@ -57,10 +57,12 @@ const RestaurantMenuItem = ({ menuItem }) => {
         ) : null}
       </div>
 
-      <div className='menuItemCategory'>{category}</div>
+      <div className='text-lg mb-3'>{category}</div>
       <div className='menuItemDetails'>
-        <div className='menuItemPrice'>For Rs. {price / 100}/-</div>
-        <div className='menuItemVeg'>{vegClassifier}</div>
+        <div className='font-bold text-xl'>For Rs. {price / 100}/-</div>
+        <div className='font-bold text-lg uppercase text-teal-500 ml-3'>
+          {vegClassifier}
+        </div>
       </div>
     </div>
   );
