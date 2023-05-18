@@ -14,9 +14,14 @@ const RestaurantMenuTitle = ({ item }) => {
           <div className='menu-items'>
             {item?.card?.card?.itemCards?.map((menuItem) => {
               const { name, category, price } = menuItem?.card?.info;
-              const { vegClassifier } = menuItem?.card?.info?.itemAttribute;
-              const { rating, ratingCount } =
-                menuItem?.card?.info?.ratings?.aggregatedRating;
+              const vegClassifier =
+                menuItem?.card?.info?.itemAttribute?.vegClassifier ||
+                'NOT PROVIDED';
+              const rating =
+                menuItem?.card?.info?.ratings?.aggregatedRating?.rating || 0;
+              const ratingCount =
+                menuItem?.card?.info?.ratings?.aggregatedRating?.ratingCount ||
+                0;
               const id = menuItem?.card?.info?.id;
 
               const menuItemProps = {
@@ -70,7 +75,7 @@ const RestaurantMenuItem = ({ menuItem }) => {
         </div>
       </div>
       <button
-        onClick={() => handleAddItem({ id, name, price })}
+        onClick={() => handleAddItem({ id, name, price: price / 100 })}
         className='w-full bg-teal-800 text-white font-bold px-5 py-2 rounded-full mt-4 hover:bg-teal-700 transition duration-150 ease-in-out'
       >
         Add to Cart
