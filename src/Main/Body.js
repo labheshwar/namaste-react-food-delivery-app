@@ -22,7 +22,6 @@ const Body = () => {
     );
     setFilteredData(dataAfterFilter);
   };
-  console.log(restaurantData);
   useEffect(() => {
     callApi(offset);
   }, []);

@@ -8,16 +8,21 @@ import Footer from './Footer';
 import Error from './Error';
 import About from './About/About';
 import Contacts from './Contact/Contact';
+import Cart from './Cart/Cart';
 import Login from './Authentication/Login';
 import RestaurantDetails from './RestaurantInfo/RestaurantDetails';
+import { Provider } from 'react-redux';
+import store from './Redux/store';
 
 const App = () => {
   return (
-    <div className='font-inter'>
-      <Navbar />
-      <Outlet />
-      <Footer />
-    </div>
+    <Provider store={store}>
+      <div className='font-inter'>
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </div>
+    </Provider>
   );
 };
 
@@ -37,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contacts />,
+      },
+      {
+        path: '/cart',
+        element: <Cart />,
       },
       {
         path: '/login',

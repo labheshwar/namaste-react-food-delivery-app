@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../Redux/Slices/cartSlice';
 
 const RestaurantMenuTitle = ({ item }) => {
   const booleanExpression = item?.card?.card?.itemCards?.length > 0;
@@ -15,8 +17,10 @@ const RestaurantMenuTitle = ({ item }) => {
               const { vegClassifier } = menuItem?.card?.info?.itemAttribute;
               const { rating, ratingCount } =
                 menuItem?.card?.info?.ratings?.aggregatedRating;
+              const id = menuItem?.card?.info?.id;
 
               const menuItemProps = {
+                id,
                 name,
                 category,
                 price,
@@ -25,12 +29,7 @@ const RestaurantMenuTitle = ({ item }) => {
                 ratingCount,
               };
 
-              return (
-                <RestaurantMenuItem
-                  key={menuItem?.card?.info?.id}
-                  menuItem={menuItemProps}
-                />
-              );
+              return <RestaurantMenuItem key={id} menuItem={menuItemProps} />;
             })}
           </div>
         </>
@@ -40,9 +39,15 @@ const RestaurantMenuTitle = ({ item }) => {
 };
 
 const RestaurantMenuItem = ({ menuItem }) => {
-  const { name, category, price, vegClassifier, rating, ratingCount } =
+  const { id, name, category, price, vegClassifier, rating, ratingCount } =
     menuItem;
-  console.log(name, category, price, vegClassifier, rating, ratingCount);
+
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    dispatch(addItem(item));
+  };
+
   return (
     <div className='bg-white text-teal-800 p-5 rounded-lg shadow-md shadow-gray-400 m-2 md:m-8'>
       <div className='flex flex-col justify-between md:flex-row'>
@@ -64,6 +69,12 @@ const RestaurantMenuItem = ({ menuItem }) => {
           {vegClassifier}
         </div>
       </div>
+      <button
+        onClick={() => handleAddItem({ id, name, price })}
+        className='w-full bg-teal-800 text-white font-bold px-5 py-2 rounded-full mt-4 hover:bg-teal-700 transition duration-150 ease-in-out'
+      >
+        Add to Cart
+      </button>
     </div>
   );
 };
