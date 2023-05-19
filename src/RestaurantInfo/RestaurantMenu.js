@@ -13,7 +13,8 @@ const RestaurantMenuTitle = ({ item }) => {
           </h3>
           <div className='menu-items'>
             {item?.card?.card?.itemCards?.map((menuItem) => {
-              const { name, category, price } = menuItem?.card?.info;
+              const { name, category } = menuItem?.card?.info;
+              const price = menuItem?.card?.info?.price || 10000;
               const vegClassifier =
                 menuItem?.card?.info?.itemAttribute?.vegClassifier ||
                 'NOT PROVIDED';
