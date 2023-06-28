@@ -1,4 +1,4 @@
-const PROXY_URL = 'https://cors-anywhere.herokuapp.com/';
+const PROXY_URL = 'https://corsproxy.io/?';
 
 export const IMAGE_URL =
   'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/';
