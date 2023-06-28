@@ -26,12 +26,10 @@ const Body = () => {
     callApi(offset);
   }, []);
 
-  const PROXY_URL = 'https://cors-anywhere.herokuapp.com/'; // Proxy server URL
-
   const callApi = async (offset) => {
     setOffset((prevOffset) => prevOffset + 16);
     try {
-      const data = await fetch(PROXY_URL + API_ALL_RESTAURANTS(offset + 16), {
+      const data = await fetch(API_ALL_RESTAURANTS(offset + 16), {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
