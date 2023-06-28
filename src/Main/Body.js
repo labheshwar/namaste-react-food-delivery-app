@@ -26,10 +26,18 @@ const Body = () => {
     callApi(offset);
   }, []);
 
+  const PROXY_URL = 'https://cors-anywhere.herokuapp.com/'; // Proxy server URL
+
   const callApi = async (offset) => {
     setOffset((prevOffset) => prevOffset + 16);
     try {
-      const data = await fetch(API_ALL_RESTAURANTS(offset + 16));
+      const data = await fetch(PROXY_URL + API_ALL_RESTAURANTS(offset + 16), {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest',
+        },
+      });
       const json = await data.json();
       const destructuredData = json?.data?.cards;
       if (restaurantData?.length === 0) {
